@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7a07491-96d7-4227-8be6-46cc874393e1">
+  <name>MedAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Med API</value>
+  </synonym>
+  <rootURL>med</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="1f9c2ea9-0f70-4ae9-8acf-a0f1b7d5ce2a">
+    <name>Patients</name>
+    <synonym>
+      <key>ru</key>
+      <value>Patients</value>
+    </synonym>
+    <template>/patients/{id}</template>
+    <methods uuid="0ca2a2d2-b6cd-4273-b1b3-3f535eb37cc9">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>PatiensGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="e750df54-575c-4f1b-a25e-441efbf890f5">
+    <name>Services</name>
+    <synonym>
+      <key>ru</key>
+      <value>Services</value>
+    </synonym>
+    <template>/services</template>
+    <methods uuid="0df96e90-5c37-46b0-8e3f-10d7e446a0ae">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ServicesGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="47906e28-bbdf-45b6-833f-356056544bc3">
+    <name>Orders</name>
+    <synonym>
+      <key>ru</key>
+      <value>Orders</value>
+    </synonym>
+    <template>/orders</template>
+    <methods uuid="583ac7f9-167d-49b5-8be1-4ab6df9b1ae9">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>OrdersPOST</handler>
+    </methods>
+    <methods uuid="dbc3bbb3-ac78-4c57-b689-02ec0bb99327">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>OrdersGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ccdd367a-596b-4bb6-a5be-dc0db4da2dba">
+    <name>OrderById</name>
+    <synonym>
+      <key>ru</key>
+      <value>Order by id</value>
+    </synonym>
+    <template>/orders/{id}</template>
+    <methods uuid="71394afc-589b-4a62-8cc1-b5974a7cfa84">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>OrderByIdGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="55a3061a-726a-46b2-b9cf-20d6d605a2e6">
+    <name>OrderStatus</name>
+    <synonym>
+      <key>ru</key>
+      <value>Order status</value>
+    </synonym>
+    <template>/orders/{id}/status</template>
+    <methods uuid="db6e062c-99ce-477d-a88e-0fe8f7a85d37">
+      <name>PUT</name>
+      <synonym>
+        <key>ru</key>
+        <value>PUT</value>
+      </synonym>
+      <httpMethod>PUT</httpMethod>
+      <handler>OrderStatusPUT</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="7a3067de-a3f0-4be5-8f51-092524ee5b28">
+    <name>ClinicReport</name>
+    <synonym>
+      <key>ru</key>
+      <value>Clinic report</value>
+    </synonym>
+    <template>/reports/clinic/{id}</template>
+    <methods uuid="de017761-fff9-4d2f-9ce8-8c49d18bd24c">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ClinicReportGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

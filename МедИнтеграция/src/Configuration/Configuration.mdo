@@ -39,6 +39,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <httpServices>HTTPService.MedAPI</httpServices>
   <catalogs>Catalog.Клиники</catalogs>
   <catalogs>Catalog.Пациенты</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
