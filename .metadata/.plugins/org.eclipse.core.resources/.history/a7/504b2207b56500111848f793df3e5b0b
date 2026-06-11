@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4202fb03-36ce-474f-a0ac-1a2665c194dd">
+  <name>МедИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мед интеграция</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="276d2780-1841-4f20-b343-ed794ee397ee"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6a8c0629-3922-49ff-ab34-07cd49897cfb"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="18062c60-2dd3-424a-9aec-bd99ee271d7a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ac960f68-a9ee-41ea-9ddb-f4e2463a7202"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3882e8c9-031f-4342-a598-02482e88cfa3"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6e1bdf85-56e2-47ce-84bb-64d02021ddf5"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="cf36d96e-1ee8-4a97-94f5-a82816c0b624"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="8c713644-8a3f-409f-bf37-e6328f7cc824">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Клиники</catalogs>
+  <catalogs>Catalog.Пациенты</catalogs>
+  <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.ЗаказУслуги</documents>
+  <enums>Enum.Пол</enums>
+  <enums>Enum.СтатусыЗаказа</enums>
+</mdclass:Configuration>

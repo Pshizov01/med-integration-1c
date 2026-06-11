@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="753db932-0dff-4dd1-a1e9-73313f299440">
+  <producedTypes>
+    <selectionType typeId="afcb7563-934a-490b-999b-941ecd74aa4b" valueTypeId="56256939-1fdc-495b-be43-d3171fdee5e4"/>
+    <listType typeId="3da428af-a63e-478b-9a17-081e2259f378" valueTypeId="b71543d5-f064-4a4b-9eb0-17b03b0a2eb3"/>
+    <managerType typeId="c042f761-1f61-4a71-8728-a207e4c72013" valueTypeId="003ba7cf-3651-4aba-ab80-e1b9781477b0"/>
+    <recordSetType typeId="103df2f5-b814-4965-bf2e-749dd6110d0b" valueTypeId="cebb978a-87bb-4c14-b7fa-410ea60859a6"/>
+    <recordKeyType typeId="05c14431-bf27-4069-9346-facef6ec33db" valueTypeId="d7ed1836-c952-4cb0-829d-e52357824258"/>
+    <recordType typeId="354fa4e1-ffca-488c-90e9-b397169a2d5b" valueTypeId="94c458ea-b5f6-4ac4-8f34-b82cf14d1db4"/>
+    <recordManagerType typeId="446ffc35-c9dc-4b20-a7a6-fc7fcf1560e1" valueTypeId="529c6d1b-4445-41a5-8be8-1701d13985a2"/>
+  </producedTypes>
+  <name>ТарифыУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a8e3bc68-594c-4cb4-93d8-ad86b616b014">
+    <name>Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="525b8b31-be08-4dd0-9c1c-af624f2cc521">
+    <name>Клиника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиника</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a7b90aa7-ba22-4e5b-b3a8-7a4c46e430ec">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

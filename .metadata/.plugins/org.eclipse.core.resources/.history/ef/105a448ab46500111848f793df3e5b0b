@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78eb3c4f-26bb-4692-9c15-b35f6be02dd0">
+  <producedTypes>
+    <refType typeId="8ca91c6a-f00a-4ee6-9b2f-6d0037d20d1b" valueTypeId="3349dbcd-0666-43c7-82c2-4bf6c5ece94b"/>
+    <listType typeId="107ebfa9-a305-480d-be4c-ed26db893243" valueTypeId="97adaa15-3c95-4f6a-ae36-e859c63fb47b"/>
+    <managerType typeId="411b8063-dff6-44ff-a59d-0d88bd85c52c" valueTypeId="71d1655a-0c7f-43fe-8a72-00155979a60b"/>
+  </producedTypes>
+  <name>СтатусыЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заказа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

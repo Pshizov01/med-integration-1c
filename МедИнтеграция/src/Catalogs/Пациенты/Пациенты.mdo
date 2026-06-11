@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a0ff630-226d-4ca1-9877-e2ec6c2f74c8">
+  <producedTypes>
+    <objectType typeId="67ede72c-7b62-425e-850b-f9a71f4b8943" valueTypeId="fe59bd49-cf7c-43cf-9760-e7e98dd82033"/>
+    <refType typeId="e9af7679-6774-49d1-b3ae-f1d35fe64d01" valueTypeId="60f8ecec-b880-4674-ac49-39006b6b3ba1"/>
+    <selectionType typeId="f3575d6d-be64-46e2-8c1c-d3335ea067e5" valueTypeId="b2ba5cc6-13de-4af3-a1e1-e6cd4d9400f1"/>
+    <listType typeId="1949bf0f-ea94-48c0-b59f-acbda6605979" valueTypeId="2980cb20-8534-498a-9a67-ef6755306793"/>
+    <managerType typeId="eabfd020-7e7c-4935-8a91-69e95b7ecb94" valueTypeId="1a8bcfb6-672d-4be2-aef9-6da7ec578d7e"/>
+  </producedTypes>
+  <name>Пациенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пациенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пациенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Пациенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2b68ca5b-f16a-4c7c-b597-4d89539c2c74">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d32c86b5-e5bb-4b2c-b7e6-103be073abdf">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Пол</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="409d67d3-afa3-44a0-bf33-e93257f8240c">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f949694a-fd0f-4370-99fe-0bc8f2b44e0c">
+    <name>ПолисОМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полис ОМС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>16</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b2eec937-6f45-4820-9114-341ef4d02c3b">
+    <name>Клиника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиника</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5698abde-d4db-4539-93d2-ad7c9ace00e6">
+  <producedTypes>
+    <objectType typeId="95bde35d-2eec-4a6f-ac47-1a4e2ebf9bc8" valueTypeId="3a9b6cb5-defc-44f2-8d30-d7d226293dbc"/>
+    <refType typeId="2f95aff1-b1d1-4edf-96f3-426914ab6a58" valueTypeId="43dcbcb5-ab57-4b64-b2e0-da4b9beacf2a"/>
+    <selectionType typeId="da668b1a-f456-455c-a524-1d2edc356eeb" valueTypeId="0a2989c1-f7fd-462a-a968-b783368eeb71"/>
+    <listType typeId="1128f48d-bbb3-4988-b831-7a92cee64209" valueTypeId="2c8fdecf-d86b-4c36-a46e-f0e4277ce5bc"/>
+    <managerType typeId="0582d297-b8c1-4c70-bbf7-2aa7cc9c646a" valueTypeId="3f648d4e-65de-412d-b8ef-94d2ecf56e28"/>
+  </producedTypes>
+  <name>Клиники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Клиники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Клиники.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b405e40d-1732-4503-a485-efd39422f179">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a893d2ac-43af-47ca-a4dd-46a85b800939">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

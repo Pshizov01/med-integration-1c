@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3afb4ddf-327d-4dde-ac8c-59e7c4912c01">
+  <producedTypes>
+    <selectionType typeId="475613d3-1cec-42e1-9eb2-e8995680c75e" valueTypeId="c1baa6b3-03b9-4f3a-bbc9-25461ae16ab1"/>
+    <listType typeId="0f8bd279-475d-40a4-8abd-3b72b40989c8" valueTypeId="5bac7fc6-8ad8-49a4-b382-008008cbbe7a"/>
+    <managerType typeId="030f7414-4f86-47fa-8e87-c53a2bf12b64" valueTypeId="16b04e9e-b418-451a-9f5a-594f96d11b09"/>
+    <recordSetType typeId="f2d66c77-37d8-44e7-ba25-0d4deb495dd0" valueTypeId="e2a70b3c-2e91-4150-bada-90cf613b44cf"/>
+    <recordKeyType typeId="b631248d-6a7e-4e1c-8298-a8263850b594" valueTypeId="3b1ddb53-2c4d-493b-a91a-c5120d1cc16f"/>
+    <recordType typeId="fe72dc6b-8474-4a05-99c7-0a475676f77f" valueTypeId="724577f7-2044-4e7c-a246-a77960fc7bc2"/>
+  </producedTypes>
+  <name>ВыполненныеУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполненные услуги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+</mdclass:AccumulationRegister>
