@@ -1,0 +1,94 @@
+{
+  "info": {
+    "_postman_id": "48815f15-9511-4e6e-b95f-a2e70f1c85b7",
+    "name": "MedIntegration API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "26300206"
+  },
+  "item": [
+    {
+      "name": "Get Patient",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Services",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Create Order",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost/med_api/hs/med/orders",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "med_api",
+            "hs",
+            "med",
+            "orders"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Orders",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Order By Id",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Update Order Status",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "http://localhost/med_api/hs/med/orders/000000001/status",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "med_api",
+            "hs",
+            "med",
+            "orders",
+            "000000001",
+            "status"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Clinic Report",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
